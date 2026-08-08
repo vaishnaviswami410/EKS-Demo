@@ -1,8 +1,6 @@
+# Creating an EKS Cluster
 
-<<<<<<< HEAD
 This guide walks you through creating an Amazon EKS (Elastic Kubernetes Service) cluster
-
-<<<<<<< HEAD
 
 ## Step 1: Set Up Prerequisites
 
@@ -230,5 +228,4 @@ eksctl delete cluster --name demo-cluster --region ap-south-1
 | View pod logs               | `kubectl logs <pod-name> -n <namespace>`         |
 | Describe a resource (debug) | `kubectl describe pod <pod-name> -n <namespace>` |
 | Delete cluster              | `eksctl delete cluster --name <name>`            |
-=======
->>>>>>> origin
+
